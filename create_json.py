@@ -13,4 +13,4 @@ for repo in repos:
     final_repo['templates'].extend(dict['templates'])
 
 with open('portainer.json','w') as f:
-    json.dumps(final_repo,f)
+    json.dump(final_repo,f)
