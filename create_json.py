@@ -12,8 +12,8 @@ for repo in repos:
     dict = json.loads(requests.get(repo).text)
     final_repo['templates'].extend(dict['templates'])
 
-try:os.remove('portainer.json')
-except:pass
 
-with open('portainer.json','w') as f:
+
+with open('portainer.json','w+') as f:
+    f.truncate(0)
     json.dump(final_repo,f)
