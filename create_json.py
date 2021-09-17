@@ -1,7 +1,7 @@
 import json, requests, os
 
 
-repos=[#'https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json',
+repos=['https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json',
        'https://raw.githubusercontent.com/Qballjos/portainer_templates/master/Template/template.json',
        'https://raw.githubusercontent.com/dnburgess/dbtechtemplate/master/Template/v2/templates.json']
 
